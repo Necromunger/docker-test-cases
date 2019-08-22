@@ -26,3 +26,23 @@ environment:
 ```
 Goodbye, John!
 ```
+
+## Using default `docker.compose.test.yml` with overriding envrioment varables:
+
+[docker docs - Share Compose configurations](https://docs.docker.com/compose/extends/)
+
+Use additional docker compose files to partially override options of previous docker compose file.
+
+Defined in `docker.compose.test.yml` are two overriding environment variables.
+
+```yml
+environment:
+    GREETING: Hey
+    NAME: Alex
+```
+
+`$ docker-compose -f docker-compose.yml -f docker-compose.test.yml up --build`
+
+```
+Hey, Alex!
+```

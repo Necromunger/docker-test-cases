@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  example2:
+    environment:
+      GREETING: Hey
+      NAME: Alex
