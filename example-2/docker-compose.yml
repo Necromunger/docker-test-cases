@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  example2:
+    image: example2
+    build: .
+    environment:
+      GREETING: Goodbye
+      NAME: John

@@ -1,6 +1,8 @@
 # Example 1
 
-Use the `run` command with default environment variables and supplied environment variables.
+[docker docs - run ENV (environment variables)](https://docs.docker.com/engine/reference/run/#env-environment-variables)
+
+Use the `run` command and `-e` flag to pass environment variables.
 
 Defined in Dockerfile are two environment variables with default values.
 
@@ -9,43 +11,25 @@ ENV GREETING=Hello
 ENV NAME=World
 ```
 
-## Passing no variables with `run` command
+## Passing no variables: 
 
-### Command:
-
-```bash
-docker run example1
-```
-
-### Output:
+`$ docker run example1`
 
 ```
 Hello, World!
 ```
 
-## Passing one environment variable with `run` command
+## Passing one environment variable: 
 
-### Command:
-
-```bash
-docker run -e GREETING=Goodbye example1
-```
-
-### Output:
+`$ docker run -e GREETING=Goodbye example1`
 
 ```
 Goodbye, World!
 ```
 
-## Passing multiple environment variables through `run` command
+## Passing multiple environment variables:
 
-### Command:
-
-```bash
-docker run -e GREETING=Goodbye -e NAME=John example1
-```
-
-### Output:
+`$ docker run -e GREETING=Goodbye -e NAME=John example1`
 
 ```
 Goodbye, John!
