@@ -1,0 +1,6 @@
+version: '3.7'
+
+services:
+  example1:
+    image: example1
+    build: .
