@@ -33,3 +33,7 @@ env_file: .env
 ```
 Goodbye, John!
 ```
+
+## Using `.env` file with `run` command
+
+FILL MEEE
