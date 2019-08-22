@@ -11,7 +11,7 @@ ENV GREETING=Hello
 ENV NAME=World
 ```
 
-## Using default `docker.compose.yml` with overriding envrioment varables:
+## Using default `docker.compose.yml` with overriding environment varables:
 
 Defined in `docker.compose.yml` are two overriding environment variables.
 
@@ -27,7 +27,7 @@ environment:
 Goodbye, John!
 ```
 
-## Using default `docker.compose.test.yml` with overriding envrioment varables:
+## Using default `docker.compose.test.yml` with overriding environment varables:
 
 [docker docs - Share Compose configurations](https://docs.docker.com/compose/extends/)
 
