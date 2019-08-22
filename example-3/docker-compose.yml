@@ -1,0 +1,7 @@
+version: '3.7'
+
+services:
+  example3:
+    image: example3
+    build: .
+    env_file: .env
