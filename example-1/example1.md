@@ -1,6 +1,6 @@
 # Example 1
 
-Default environment variables and passing environment variables through run command.
+Use the `run` command with default environment variables and supplied environment variables.
 
 Defined in Dockerfile are two environment variables with default values.
 
