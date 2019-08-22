@@ -1,6 +1,6 @@
 FROM debian:stretch
 
-ENV GREETING=Hello \
-    NAME=World
+ENV GREETING=Hello
+ENV NAME=World
 
 CMD echo $GREETING, $NAME!

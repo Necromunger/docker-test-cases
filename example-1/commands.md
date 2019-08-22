@@ -2,11 +2,18 @@
 
 Default environment variables and passing environment variables through run command.
 
-## Giving only one environment variable through `run` command
+Defined in Dockerfile are two environment variables with default values.
+
+```Dockerfile
+ENV GREETING=Hello
+ENV NAME=World
+```
+
+## Passing no variables with `run` command
 
 ### Command:
 
-```
+```bash
 docker run example1
 ```
 
@@ -16,11 +23,11 @@ docker run example1
 Hello, World!
 ```
 
-## Giving only one environment variable through `run` command
+## Passing one environment variables with `run` command
 
 ### Command:
 
-```
+```bash
 docker run -e GREETING=Goodbye example1
 ```
 
@@ -30,11 +37,11 @@ docker run -e GREETING=Goodbye example1
 Goodbye, World!
 ```
 
-## Giving multiple environment variables through `run` command
+## Passing multiple environment variables through `run` command
 
 ### Command:
 
-```
+```bash
 docker run -e GREETING=Goodbye -e NAME=John example1
 ```
 
