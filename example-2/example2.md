@@ -2,7 +2,7 @@
 
 [docker docs - environment](https://docs.docker.com/compose/compose-file/#environment)
 
-Use docker Compose files to override default environment variables.
+Using docker Compose files to override environment variables.
 
 Defined in [Dockerfile](Dockerfile) are two environment variables with default values.
 
@@ -11,7 +11,7 @@ ENV GREETING=Hello
 ENV NAME=World
 ```
 
-## Using one docker Compose file to override environment variables
+## Using a docker Compose file to override environment variables
 
 Defined in [`docker-compose.yml`](docker-compose.yml) are two overriding environment variables.
 
@@ -27,7 +27,7 @@ environment:
 Goodbye, John!
 ```
 
-## Using multiple Compose files
+## Using multiple docker Compose files
 
 [docker docs - Share Compose configurations between files and projects](https://docs.docker.com/compose/extends/)
 

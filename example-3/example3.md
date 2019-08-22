@@ -1,4 +1,3 @@
 # Example 3 - Using docker .env files
 
-
-wip
+Using `.env` files to override environment variables.
