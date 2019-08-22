@@ -4,7 +4,7 @@
 
 Use the `run` command and `-e` flag to pass environment variables.
 
-Defined in Dockerfile are two environment variables with default values.
+Defined in [Dockerfile](Dockerfile) are two environment variables with default values.
 
 ```Dockerfile
 ENV GREETING=Hello

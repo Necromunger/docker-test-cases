@@ -4,16 +4,16 @@
 
 Use docker compose files to override default environment variables.
 
-Defined in Dockerfile are two environment variables with default values.
+Defined in [Dockerfile](Dockerfile) are two environment variables with default values.
 
 ```Dockerfile
 ENV GREETING=Hello
 ENV NAME=World
 ```
 
-## Use `docker.compose.yml` with overriding environment varables:
+## Use `docker-compose.yml` with overriding environment varables:
 
-Defined in `docker.compose.yml` are two overriding environment variables.
+Defined in [`docker-compose.yml`](docker-compose.yml) are two overriding environment variables.
 
 ```yml
 environment:
@@ -27,13 +27,13 @@ environment:
 Goodbye, John!
 ```
 
-## Use `docker.compose.test.yml` with partial overriding environment varables:
+## Use `docker-compose.test.yml` with partial overriding environment varables:
 
 [docker docs - Share Compose configurations](https://docs.docker.com/compose/extends/)
 
 Use additional docker compose files to partially override options of previous docker compose file.
 
-Defined in `docker.compose.test.yml` are two overriding environment variables.
+Defined in [docker-compose.test.yml](docker-compose.test.yml) are two overriding environment variables.
 
 ```yml
 environment:
