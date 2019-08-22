@@ -1,6 +1,6 @@
 # wtf-docker
 
-Code examples of [docker](https://www.docker.com/) working with environment variables.
+Code examples on [docker](https://www.docker.com/) working with environment variables.
 
 Environment variables have many methods of being defined and overridden.
 
