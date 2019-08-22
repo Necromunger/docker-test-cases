@@ -1,4 +1,4 @@
-# Example 1
+# Example 1 - Using run command
 
 [docker docs - run ENV (environment variables)](https://docs.docker.com/engine/reference/run/#env-environment-variables)
 

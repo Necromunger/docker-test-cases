@@ -1,4 +1,4 @@
-# Example 2
+# Example 2 - Using docker Compose files
 
 [docker docs - environment](https://docs.docker.com/compose/compose-file/#environment)
 
