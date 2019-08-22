@@ -23,7 +23,7 @@ docker run example1
 Hello, World!
 ```
 
-## Passing one environment variables with `run` command
+## Passing one environment variable with `run` command
 
 ### Command:
 
