@@ -11,7 +11,7 @@ ENV GREETING=Hello
 ENV NAME=World
 ```
 
-## Using `.env` files inside docker Compose files
+## Using `.env` file inside docker Compose file
 
 [docker docs - env_file](https://docs.docker.com/compose/compose-file/#env_file)
 
@@ -22,7 +22,7 @@ GREETING=Goodbye
 NAME=John
 ```
 
-Defined in [docker-compose.yml](docker-compose.yml) is a pointer to the environment file.
+Defined in [docker-compose.yml](docker-compose.yml) is a pointer to the [.env](.env) environment file.
 
 ```yml
 env_file: .env

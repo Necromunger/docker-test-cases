@@ -46,3 +46,11 @@ environment:
 ```
 Hey, Alex!
 ```
+
+## Using multiple docker Compose files then overriding their environment variables with `run` command 
+
+`$ docker run -e GREETING=Greetings -e NAME=Humans example2`
+
+```
+Greetings, Humans!
+```
