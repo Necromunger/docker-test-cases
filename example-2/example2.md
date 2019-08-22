@@ -11,7 +11,7 @@ ENV GREETING=Hello
 ENV NAME=World
 ```
 
-## Using a docker Compose file to override environment variables
+## Using a docker Compose file
 
 Defined in [`docker-compose.yml`](docker-compose.yml) are two overriding environment variables.
 
